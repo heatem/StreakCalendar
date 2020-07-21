@@ -9,11 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack(spacing: 0) {
-            ForEach (0..<7) { square in
-                Rectangle()
-                    .frame(width: UIScreen.main.bounds.width / 7, height: UIScreen.main.bounds.width / 7)
-                    .border(Color.black, width: 1)
+        VStack(spacing: 0) {
+            ForEach(0..<CollectionViewCell.row) { i in
+                HStack(spacing: 0) {
+                    ForEach(0..<CollectionViewCell.column) { j in
+                        CollectionViewCell(row: i, column: j)
+                    }
+                }
             }
         }
     }
