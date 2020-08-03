@@ -13,6 +13,7 @@
 		AE7AC69424C1536D005152B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE7AC69324C1536D005152B2 /* Preview Assets.xcassets */; };
 		AE7AC69F24C1536D005152B2 /* StreakCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7AC69E24C1536D005152B2 /* StreakCalendarTests.swift */; };
 		AE7AC6AA24C1536D005152B2 /* StreakCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7AC6A924C1536D005152B2 /* StreakCalendarUITests.swift */; };
+		AE87791324D6654D00AD5638 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE87791224D6654D00AD5638 /* DateFormatter.swift */; };
 		AEE19CDA24C690CE004D63F8 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE19CD924C690CE004D63F8 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		AE7AC6A524C1536D005152B2 /* StreakCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreakCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE7AC6A924C1536D005152B2 /* StreakCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakCalendarUITests.swift; sourceTree = "<group>"; };
 		AE7AC6AB24C1536D005152B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE87791224D6654D00AD5638 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		AEE19CD924C690CE004D63F8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +105,7 @@
 				AE7AC69524C1536D005152B2 /* Info.plist */,
 				AE7AC69224C1536D005152B2 /* Preview Content */,
 				AEE19CD924C690CE004D63F8 /* CollectionViewCell.swift */,
+				AE87791224D6654D00AD5638 /* DateFormatter.swift */,
 			);
 			path = StreakCalendar;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE87791324D6654D00AD5638 /* DateFormatter.swift in Sources */,
 				AE7AC68F24C1536C005152B2 /* ContentView.swift in Sources */,
 				AE7AC68D24C1536C005152B2 /* StreakCalendarApp.swift in Sources */,
 				AEE19CDA24C690CE004D63F8 /* CollectionViewCell.swift in Sources */,

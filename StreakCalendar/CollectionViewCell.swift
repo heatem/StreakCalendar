@@ -11,7 +11,7 @@ struct CollectionViewCell: View {
     static let column = 7
     static let row = 4
     let width = UIScreen.main.bounds.width / 7
-    let dates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+    var dates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
     var index = 0
     init(row: Int, column: Int) {
         index = row + column + (row * 6)
